@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files (often large)
+*.txt
+*.csv
+*.parquet
+*.h5
+*.hdf5
+Data/
+
+# Model weights (can be large)
+*.pt
+*.pth
+*.ckpt
+saved_cmapss_models/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Keep these always tracked:
+!*.ipynb
+!*.json
+!requirements.txt
+!README.md
+!ReadMe.png
