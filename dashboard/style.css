@@ -1,0 +1,171 @@
+:root {
+  --bg: #000000;
+  --panel: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --primary: #86a6ff;
+  --accent: #2563eb;
+  --button-text: #ffffff;
+  --danger: #b91c1c;
+  --warning: #d97706;
+  --success: #047857;
+  --border: rgba(15, 23, 42, 0.12);
+  --table-heading: #d2d8e6;
+  --table-row: #f8fafc;
+}
+
+body,
+.stApp,
+section main .block-container {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+section main .block-container {
+  border-radius: 20px;
+  background: var(--panel);
+  box-shadow: 0 16px 44px rgba(15, 23, 42, 0.08);
+  padding: 1.75rem;
+}
+
+[data-testid="stSidebar"] {
+  background: #ffffff !important;
+  color: var(--text) !important;
+  border-right: 1px solid rgba(15, 23, 42, 0.08) !important;
+}
+
+[data-testid="stSidebar"] .css-15msu8n,
+[data-testid="stSidebar"] .stMarkdown,
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4,
+[data-testid="stSidebar"] label {
+  color: var(--text) !important;
+}
+
+.stButton>button {
+  background: var(--accent) !important;
+  color: var(--button-text) !important;
+  font-weight: 700 !important;
+  border-radius: 999px !important;
+  border: none !important;
+}
+
+.stButton>button:hover {
+  opacity: 0.92 !important;
+}
+
+.stMarkdown h1,
+.stMarkdown h2,
+.stMarkdown h3,
+.stMarkdown h4 {
+  color: var(--primary) !important;
+}
+
+.stMarkdown p,
+.stMarkdown li,
+.stMarkdown span,
+.stMarkdown a {
+  color: var(--text) !important;
+}
+
+.css-1lcbmhc.egzxvld1,
+.css-1d391kg,
+.css-1v3fvcr,
+.css-8g77vj {
+  border-radius: 16px !important;
+  border: 1px solid var(--border) !important;
+  background: var(--panel) !important;
+}
+
+.stDataFrame table {
+  border-radius: 1rem;
+  overflow: hidden;
+  border-collapse: separate !important;
+}
+
+.stDataFrame th {
+  background: #e2e8f0 !important;
+  color: var(--table-heading) !important;
+  font-weight: 700 !important;
+}
+
+.stDataFrame td,
+.stDataFrame th {
+  padding: 0.85rem 1rem !important;
+  color: var(--text) !important;
+}
+
+.stDataFrame tr:nth-child(even) {
+  background: var(--table-row) !important;
+}
+
+.stDataFrame tr:hover {
+  background: rgba(37, 99, 235, 0.08) !important;
+}
+
+.stDataFrame td {
+  color: #f7fadf !important;
+}
+
+.stAlert,
+.stInfo,
+.stWarning,
+.stSuccess {
+  border-radius: 18px !important;
+}
+
+/* Force high-contrast text on panels, metrics, and cards */
+.stMetric, .stMetricValue, .stMetricLabel, .stMetricDelta, .stMetricDelta > span,
+.stMetricContainer, .stMetricLabel, .stMetricValue {
+  color: #fdffde!important;
+}
+
+.stMetric > div, .stMetricValue > div, .stMetricLabel > div {
+  color: #fdffde!important;
+}
+
+/* Ensure panel text is dark on light backgrounds */
+.css-1lcbmhc.egzxvld1,
+.css-1d391kg,
+.css-1v3fvcr,
+.css-1b8d3f3,
+.css-10trblm,
+.css-hxt7ib {
+  background: #ffffff !important;
+  color: #fdffde!important;
+}
+
+/* Stronger table text contrast */
+.stDataFrame td,
+.stDataFrame th,
+.stDataFrame th div,
+.stDataFrame td div {
+  color: #fdffde!important;
+}
+
+/* Buttons and inputs should remain readable */
+.stButton>button,
+.stCheckbox>div,
+.stSelectbox>div,
+.stSlider>div,
+.stMultiselect>div,
+.stTextInput>div {
+  color: #fdffde !important;
+}
+
+/* Prevent muted text from becoming unreadable */
+.stMarkdown p,
+.stMarkdown li,
+.stMarkdown span,
+.stMarkdown div {
+  color: #fdffde!important;
+}
+
+.stCheckbox>div,
+.stSelectbox>div,
+.stSlider>div,
+.stMultiselect>div {
+  color: var(--text) !important;
+}
