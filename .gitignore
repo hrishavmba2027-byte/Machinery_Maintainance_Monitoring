@@ -20,18 +20,18 @@ env/
 .ipynb_checkpoints/
 
 # Data files (often large)
-*.txt
-*.csv
-*.parquet
-*.h5
-*.hdf5
+# *.txt
+# *.csv
+# *.parquet
+# *.h5
+# *.hdf5
 
 
 # Model weights (can be large)
-*.pt
-*.pth
-*.ckpt
-saved_cmapss_models/*.pt
+# *.pt
+# *.pth
+# *.ckpt
+# saved_cmapss_models/*.pt
 
 # OS files
 .DS_Store
