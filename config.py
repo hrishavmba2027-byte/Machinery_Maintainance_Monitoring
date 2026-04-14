@@ -9,10 +9,10 @@ from pathlib import Path
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 BASE_DIR        = Path(__file__).parent
-DATA_DIR        = BASE_DIR / "data" / "raw"
-PROCESSED_DIR   = BASE_DIR / "data" / "processed"
-LIVE_DIR        = BASE_DIR / "data" / "live"
-SNAPSHOT_DIR    = BASE_DIR / "data" / "snapshots"
+DATA_DIR        = BASE_DIR / "Data" / "raw"
+PROCESSED_DIR   = BASE_DIR / "Data" / "processed"
+LIVE_DIR        = BASE_DIR / "Data" / "live"
+SNAPSHOT_DIR    = BASE_DIR / "Data" / "snapshots"
 CHECKPOINT_DIR  = BASE_DIR / "checkpoints"
 LOG_PATH        = BASE_DIR / "logs" / "monitoring.log"
 
